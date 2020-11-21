@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Door1 : MonoBehaviour
+public class DoorAnimation : MonoBehaviour
 {
     private bool isOpened = false;
     private Animation parentAnimation;
