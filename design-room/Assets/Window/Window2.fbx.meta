@@ -1,8 +1,20 @@
 fileFormatVersion: 2
-guid: a653d4e697f43f642bff668bef8f6ea2
+guid: af6e7a505e1c008418e2c50980fcf8a0
 ModelImporter:
   serializedVersion: 19301
   internalIDToNameTable:
+  - first:
+      74: 706846029359575778
+    second: Light|Window.LAction
+  - first:
+      74: -2433565481697719606
+    second: Light|Window.RAction
+  - first:
+      74: 2254547714373405246
+    second: Camera|Window.LAction
+  - first:
+      74: -8437556203573363108
+    second: Camera|Window.RAction
   - first:
       74: -838082151335946997
     second: WindowFrame|Window.LAction
@@ -16,17 +28,23 @@ ModelImporter:
       74: 4388513872941845706
     second: Window.L|Window.RAction
   - first:
+      74: 6833600549867264599
+    second: Handle|Window.LAction
+  - first:
+      74: -124016539695304238
+    second: Handle|Window.RAction
+  - first:
       74: -7259462114274943394
     second: Window.R|Window.LAction
   - first:
       74: 5026085940429247542
     second: Window.ROpen
   - first:
-      74: 6833600549867264599
-    second: Handle|Window.LAction
+      74: 8862170021446017583
+    second: Handle.001|Window.LAction
   - first:
-      74: -124016539695304238
-    second: Handle|Window.RAction
+      74: 5544639271549207712
+    second: Handle.001|Window.RAction
   - first:
       74: -3055592652381850761
     second: Windows_Sill|Window.LAction
@@ -205,8 +223,8 @@ ModelImporter:
     sortHierarchyByName: 1
     importVisibility: 1
     importBlendShapes: 1
-    importCameras: 1
-    importLights: 1
+    importCameras: 0
+    importLights: 0
     fileIdsGeneration: 2
     swapUVChannels: 0
     generateSecondaryUV: 0
@@ -248,7 +266,7 @@ ModelImporter:
     globalScale: 1
     rootMotionBoneName: 
     hasTranslationDoF: 0
-    hasExtraRoot: 0
+    hasExtraRoot: 1
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
   autoGenerateAvatarMappingIfUnspecified: 1
