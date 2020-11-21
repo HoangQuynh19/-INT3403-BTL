@@ -6,6 +6,18 @@ ModelImporter:
   - first:
       74: -623603649343465320
     second: Scene
+  - first:
+      74: 973831734739876959
+    second: OpenLeft
+  - first:
+      74: -4520552020320564867
+    second: CloseLeft
+  - first:
+      74: -8234327681370593872
+    second: OpenRight
+  - first:
+      74: -3037873152650467918
+    second: CloseRight
   externalObjects: {}
   materials:
     materialImportMode: 1
@@ -91,7 +103,7 @@ ModelImporter:
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
   autoGenerateAvatarMappingIfUnspecified: 1
-  animationType: 2
+  animationType: 1
   humanoidOversampling: 1
   avatarSetup: 0
   additionalBone: 0
