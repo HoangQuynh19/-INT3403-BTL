@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class DoorAnimation : MonoBehaviour
+public class SliderAnimation : MonoBehaviour
 {
     private bool isOpened = false;
     private Animation m_animation;
@@ -27,19 +27,19 @@ public class DoorAnimation : MonoBehaviour
     {
         if (isOpened)
         {
-            if (m_collider.name.Equals("Door"))
+            if (m_collider.name.Equals("Slider"))
             {
-                m_animation.PlayQueued("CloseRight");
+                m_animation.PlayQueued("SliderLClose");
             } else {
-                m_animation.PlayQueued("CloseLeft");
+                m_animation.PlayQueued("SliderRClose");
             }
             isOpened = false;
         } else {
-            if (m_collider.name.Equals("Door"))
+            if (m_collider.name.Equals("Slider"))
             {
-                m_animation.PlayQueued("OpenRight");
+                m_animation.PlayQueued("SliderLOpen");
             } else {
-                m_animation.PlayQueued("OpenLeft");
+                m_animation.PlayQueued("SliderROpen");
             }
             isOpened = true;
         }
